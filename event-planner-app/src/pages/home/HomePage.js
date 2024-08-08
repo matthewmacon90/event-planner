@@ -5,8 +5,6 @@ import './HomeStyles.css';
 const HomePage = () => {
     return (
         <div className="home-container">
-            <h1>Welcome to my page!</h1>
-            <p>Need an event planner, happy to help!</p>
             <div className="home-main">
                 <div className="home-left-side">
                     <ProfileHome />

@@ -1,5 +1,5 @@
 .home-container {
-    height: 100vh;
+    height: calc(100vh - 100px);
 }
 
 .home-main {
@@ -21,8 +21,10 @@
     width: 50%;
 }
 
-.profile-container {
-
+.profile-home-container {
+    background-color: brown;
+    position: relative;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
 .profile-img {
@@ -31,6 +33,11 @@
 }
 
 .advertisement-container {
+    animation: 1s ease-out 0s 1 slideInFromRight;
+}
+
+.advertisement-container h2{
+    margin-top: 0px;
 }
 
 .advertisement-one {
@@ -43,4 +50,22 @@
 .advertisement-two {
     width: 100%;
     height: 50%;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }

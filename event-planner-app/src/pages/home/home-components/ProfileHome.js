@@ -1,4 +1,4 @@
-import profilePic from '../../../assets/profile.png';
+import profilePic from '../../../assets/second-profile.png';
 
 const ProfileHome = () => {
     return (

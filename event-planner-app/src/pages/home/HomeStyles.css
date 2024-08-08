@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: 100%;
 }
 
 .home-left-side {
@@ -34,6 +35,7 @@
 
 .advertisement-container {
     animation: 1s ease-out 0s 1 slideInFromRight;
+    width: 100%;
 }
 
 .advertisement-container h2{
@@ -41,15 +43,34 @@
 }
 
 .advertisement-one {
-    background-color: brown;
+    background-color: #124E66;
     color: white;
-    width: 100%;
-    height: 50%;
+    padding: 25px;
 }
 
 .advertisement-two {
-    width: 100%;
-    height: 50%;
+    background-color: #748D92;
+    color: white;
+    padding: 25px;
+}
+
+.about-me-home-btn {
+    width: 200px;
+    height: 50px;
+    background-color: #748D92;
+    color: white;
+    border: 1px solid white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.about-me-home-btn:hover {
+    background-color: #124E66;
+}
+
+.about-me-home-btn:active {
+    background-color: #748D92;
 }
 
 @keyframes slideInFromLeft {

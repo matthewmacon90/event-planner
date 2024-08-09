@@ -1,7 +1,3 @@
-.home-container {
-    height: calc(100vh - 100px);
-}
-
 .home-main {
     display: flex;
     flex-direction: row;
@@ -24,8 +20,6 @@
 }
 
 .profile-home-container {
-    background-color: brown;
-    position: relative;
     animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 

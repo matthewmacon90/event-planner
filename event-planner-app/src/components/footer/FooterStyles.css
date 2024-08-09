@@ -3,10 +3,38 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 0 20px;
     color: white;
     background-color: #212A31;
     animation: 1s ease-out 0s 1 slideInFromBottom;
+}
+
+.footer-styles-ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 2px;
+}
+
+.footer-styles-ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  color: white;
+  gap: 2px;
+}
+
+.footer-styles-ul li a {
+  /* text-decoration: none; */
+  color: white;
+}
+
+.footer-styles-ul li a:hover {
+  color: #D3D9D4;
+}
+
+.footer-social {
+  display: flex;
+  gap: 10px;
 }
 
 @keyframes slideInFromBottom {

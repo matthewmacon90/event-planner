@@ -75,6 +75,25 @@
     background-color: #748D92;
 }
 
+.advert-home-btn {
+    width: 200px;
+    height: 50px;
+    background-color: #124E66;
+    color: white;
+    border: 1px solid white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.advert-home-btn:hover {
+    background-color: #748D92;
+}
+
+.advert-home-btn:active {
+    background-color: #124E66;
+}
+
 @keyframes slideInFromLeft {
     0% {
       transform: translateX(-100%);

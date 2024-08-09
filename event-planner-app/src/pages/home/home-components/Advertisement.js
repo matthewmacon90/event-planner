@@ -7,9 +7,15 @@ const Advertisement = () => {
                 <button className="about-me-home-btn">Click to learn more!</button>
             </div>
             <div className="advertisement-two">
-                <h2>Advertisement</h2>
-                <p>Advertise with us today!</p>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <h2>Looking for an event coordinator?</h2>
+                <p>
+                    Your search ends here! I’m Natalie, your go-to expert for crafting memorable music events and 
+                    art showcases in Madison, Indiana. With a proven track record of successful collaborations and 
+                    a deep commitment to the arts, I’m here to bring your vision to life.
+                    Don’t hesitate—contact me today to start planning an event 
+                    that will captivate and inspire. Let’s create magic together!
+                </p>
+                <button className="advert-home-btn">Contact me here!</button>
             </div>
         </div>
     )
